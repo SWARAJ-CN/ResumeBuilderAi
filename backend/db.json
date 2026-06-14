@@ -1,0 +1,86 @@
+{
+  "resume": [
+    {
+      "fullName": "Bob",
+      "location": "Erankulam , Kakkanad",
+      "jobTitle": "Frontend Developer",
+      "email": "bob@123gmail.com",
+      "contact": "123456785",
+      "linkedin": "bob.linkedin.in",
+      "github": "bob-github.com",
+      "degree": "Bcom Computer Application",
+      "university": "Kerala University",
+      "passout": "2022-25",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Responsive Design",
+        "Tailwind CSS",
+        "Bootstrap",
+        "DOM Manipulation",
+        "Cross Browser Compatibility",
+        "Git"
+      ],
+      "summary": "Creative frontend developer with expertise in building responsive and user-friendly web interfaces using HTML, CSS, JavaScript, and modern frameworks. Passionate about creating engaging user experiences and optimizing web performance.",
+      "date": "6/12/2026",
+      "id": 1
+    },
+    {
+      "fullName": "Alice",
+      "location": "Eranakulam ,Kochi",
+      "jobTitle": "Backend Developer",
+      "email": "alice@gamil.com",
+      "contact": "9876543210",
+      "linkedin": "alice.linkedin.in",
+      "github": "alice-github.com",
+      "degree": "BSC Computer Science",
+      "university": "Kannur University",
+      "passout": "2022-25",
+      "skills": [
+        "Node.js",
+        "Express.js",
+        "REST API Development",
+        "Database Design",
+        "MongoDB",
+        "SQL",
+        "Authentication & Authorization",
+        "Server Security",
+        "API Integration",
+        "Git"
+      ],
+      "summary": "Backend developer experienced in building secure and scalable server-side applications. Skilled in REST API development, database management, and ensuring application performance and reliability.",
+      "date": "6/12/2026",
+      "id": 2
+    },
+    {
+      "fullName": "John Doe",
+      "location": "Malappuram",
+      "jobTitle": "Full Stack Developer",
+      "email": "johndoe@gmail.com",
+      "contact": "9965534467",
+      "linkedin": "johndoe.linkedin.in",
+      "github": "johndoe-github.com",
+      "degree": "Bachelor's of Computer Application",
+      "university": "university of calicut",
+      "passout": "2023-26",
+      "skills": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "HTML",
+        "CSS",
+        "REST APIs",
+        "Git",
+        "Deployment"
+      ],
+      "summary": "Full stack developer with hands-on experience in developing end-to-end web applications using both frontend and backend technologies. Adept at building scalable systems and delivering high-quality solutions.",
+      "date": "6/12/2026",
+      "id": 3
+    }
+  ],
+  "downloads": []
+}
