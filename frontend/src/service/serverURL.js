@@ -1,2 +1,2 @@
 
-export const serverURL = 'http://localhost:3000'
+export const serverURL = 'https://resumebuilderai-y37s.onrender.com'
