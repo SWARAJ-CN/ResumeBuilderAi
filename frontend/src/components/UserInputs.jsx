@@ -25,11 +25,10 @@ const steps = [
 ];
 
 const UserInputs = ({ userData, setUserData }) => {
-
   const [activeStep, setActiveStep] = React.useState(0);
   const [skipped, setSkipped] = React.useState(new Set());
 
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   const generateAIData = () => {
     setUserData({
@@ -81,11 +80,25 @@ const UserInputs = ({ userData, setUserData }) => {
 
   const handleReset = () => {
     setActiveStep(0);
+    setUserData({
+      fullName: "",
+      location: "",
+      jobTitle: "",
+      email: "",
+      contact: "",
+      linkedin: "",
+      github: "",
+      degree: "",
+      university: "",
+      passout: "",
+      skills: [],
+      summary: "",
+    });
   };
 
   //handleResumeAdd
 
-const handleResumeAdd = async () => {
+  const handleResumeAdd = async () => {
     const {
       fullName,
       location,
@@ -117,20 +130,18 @@ const handleResumeAdd = async () => {
     ) {
       // alert('Ready for Api call')
       try {
-
-        const result = await addResumeAPI(userData)
+        const result = await addResumeAPI(userData);
         console.log(result);
-        
+
         Swal.fire({
-        title: "Resume Added Successfully",
-        text: "Click the ok button view  the resume",
-        icon: "success",
-      });
-       const id =  result.data.id
-       navigate(`/view/${id}/resume`)
+          title: "Resume Added Successfully",
+          text: "Click the ok button view  the resume",
+          icon: "success",
+        });
+        const id = result.data.id;
+        navigate(`/view/${id}/resume`);
       } catch (error) {
         console.log(error);
-        
       }
     } else {
       // alert ('fill the form completly')
@@ -139,7 +150,6 @@ const handleResumeAdd = async () => {
         title: "Oops...Something went wrong!",
         text: "fill the form completly",
       });
-     
     }
   };
 
